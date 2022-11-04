@@ -5,12 +5,12 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAZGvVOPyrEadyMinpocZJKJQlQ4RuNJqQ",
-    authDomain: "react-native-email-auth.firebaseapp.com",
-    projectId: "react-native-email-auth",
-    storageBucket: "react-native-email-auth.appspot.com",
-    messagingSenderId: "727757775240",
-    appId: "1:727757775240:web:02db8fa1a8a7ab93b75a3d"
+    apiKey: "AIzaSyChfNvGWw-E57VcWEGocH6AN4XXzsKqC5M",
+    authDomain: "emailauth-login-register.firebaseapp.com",
+    projectId: "emailauth-login-register",
+    storageBucket: "emailauth-login-register.appspot.com",
+    messagingSenderId: "101216646746",
+    appId: "1:101216646746:web:1c901ec8992b7455358a63"
 };
 
 if(!firebase.apps.length){

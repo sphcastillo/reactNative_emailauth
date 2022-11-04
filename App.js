@@ -11,11 +11,11 @@ import { Header } from 'react-native/Libraries/NewAppScreen';
 const Stack = createNativeStackNavigator();
 
 function App(){
+  const [initializing, setInitializing] = useState(true);
   const [user, setUser] = useState();
-  const [initializing, setInitializing] = useState(false);
 
   // Handle user state changes
-  function onAuthStateChanged(){
+  function onAuthStateChanged(user){
     setUser(user);
     if(initializing){
       setInitializing(false);
